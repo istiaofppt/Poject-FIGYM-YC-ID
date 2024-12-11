@@ -414,19 +414,18 @@ img {
 .program__button{
   justify-self: flex-end;
   margin-top: 1.5rem;
-  font-size: 1.25rem;
+  font-size: 1rem;
   color: var(--title-color-black);
   opacity: 0;
   transition: opacity .4s;
 }
 
 .program__button i{
-  display: block;
   transition: transform .3s;
 }
 
-.program__button:hover i{
-  transform: translateX(.25rem);
+.program__button:hover{
+  transform: translateX(.5rem);
 }
 
 .program__card:hover{
@@ -586,6 +585,7 @@ background-color: var(--first-color);
 
 .pricing__button{
   background-color: var(--title-color);
+  padding: 1rem;
 }
 
 .pricing__button:hover{
